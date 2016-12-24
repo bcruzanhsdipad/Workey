@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Calendar Gem
+gem "simple_calendar", "~> 2.0"
 # Authorization 'Devise'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

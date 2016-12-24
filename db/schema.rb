@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161224060507) do
+ActiveRecord::Schema.define(version: 20161224064243) do
 
   create_table "hours", force: :cascade do |t|
     t.date     "work_day"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20161224060507) do
     t.boolean  "double_time"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
+    t.decimal  "hourly_rate"
   end
 
   create_table "profiles", force: :cascade do |t|
