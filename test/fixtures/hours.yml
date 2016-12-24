@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  work_day: 2016-12-23
+  start_time: 2016-12-23 22:05:08
+  end_time: 2016-12-23 22:05:08
+  regular_hours: false
+  overtime_hours: false
+  double_time: false
+
+two:
+  work_day: 2016-12-23
+  start_time: 2016-12-23 22:05:08
+  end_time: 2016-12-23 22:05:08
+  regular_hours: false
+  overtime_hours: false
+  double_time: false
